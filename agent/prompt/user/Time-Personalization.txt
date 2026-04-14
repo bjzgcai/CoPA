@@ -1,0 +1,18 @@
+User's Historical Questions:
+{Historical_questions}
+
+User's Current Question：
+{Current_question}
+
+The response should be in JSON format:
+{{
+  "answer": "",
+  "reasoning": "Brief explanation..."
+}}
+
+
+Requirements:
+1. The answer needs to be accurate.
+2. Reasoning is a brief explanation of how you arrived at the answer above.
+3. Ensure the output adheres to the specified format.
+
