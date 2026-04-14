@@ -11,6 +11,14 @@ The project is organized as a practical end-to-end workflow:
 
 The current repository documents the runnable scripts that are present here, while the pipeline description reflects the full intended workflow.
 
+## Dataset
+
+The dataset used by this pipeline is publicly available on Hugging Face:
+
+- https://huggingface.co/datasets/sssss-hang/CoPA
+
+The local files under `dataset/` are the repository-side Parquet files used for running retrieval, generation, and evaluation experiments.
+
 ## Repository Structure
 
 ```text
@@ -65,7 +73,7 @@ In practice:
 Run all commands below from the repository root:
 
 ```bash
-cd /home/tosdata/Software
+cd /path/to/Software
 mkdir -p outputs
 ```
 
