@@ -22,7 +22,7 @@ The local files under `dataset/` are the repository-side Parquet files used for 
 ## Repository Structure
 
 ```text
-Software/
+CoPA/
 ├── agent/
 │   ├── generation/
 │   │   ├── baseline.py
