@@ -19,13 +19,9 @@ This repository accompanies our arXiv paper:
 
 ## Dataset
 
-The dataset used by this pipeline is publicly available on Hugging Face:
+The CoPA dataset used by this pipeline is publicly available on Hugging Face:
 
 - https://huggingface.co/datasets/sssss-hang/CoPA
-
-The CoPA benchmark and dataset are introduced in our arXiv paper:
-
-- https://arxiv.org/abs/2604.14773
 
 The local files under `dataset/` are the repository-side Parquet files used for running retrieval, generation, and evaluation experiments.
 
