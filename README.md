@@ -11,13 +11,39 @@ The project is organized as a practical end-to-end workflow:
 
 The current repository documents the runnable scripts that are present here, while the pipeline description reflects the full intended workflow.
 
+## Paper
+
+This repository accompanies our arXiv paper:
+
+- [CoPA: Benchmarking Personalized Question Answering with Data-Informed Cognitive Factors](https://arxiv.org/abs/2604.14773)
+
 ## Dataset
 
 The dataset used by this pipeline is publicly available on Hugging Face:
 
 - https://huggingface.co/datasets/sssss-hang/CoPA
 
+The CoPA benchmark and dataset are introduced in our arXiv paper:
+
+- https://arxiv.org/abs/2604.14773
+
 The local files under `dataset/` are the repository-side Parquet files used for running retrieval, generation, and evaluation experiments.
+
+## Citation
+
+If you use this repository or the CoPA benchmark in your research, please cite:
+
+```bibtex
+@misc{su2026copabenchmarkingpersonalizedquestion,
+  title={CoPA: Benchmarking Personalized Question Answering with Data-Informed Cognitive Factors},
+  author={Hang Su and Zequn Liu and Chen Hu and Xuesong Lu and Yingce Xia and Zhen Liu},
+  year={2026},
+  eprint={2604.14773},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2604.14773}
+}
+```
 
 ## Repository Structure
 
